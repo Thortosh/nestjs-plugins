@@ -41,7 +41,7 @@ export class NatsJetStreamServer
     }
 
     await this.bindEventHandlers();
-    this.bindMessageHandlers();
+    // this.bindMessageHandlers();
     callback();
   }
 
